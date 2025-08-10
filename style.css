@@ -423,6 +423,7 @@ li a {
       backdrop-filter: blur(3px);
       background: none;
       height: 78%;
+   }
 }
 
 @media screen and (max-width: 850px) {
@@ -560,6 +561,7 @@ li a {
    #navbarLogo {
       max-width: 0px;
       min-width: 0px;
+   }
 }
 
 @media screen and (max-width: 636px) {
