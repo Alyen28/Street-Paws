@@ -332,7 +332,7 @@ li a {
 }
 
 /* STYLE HERO IMAGE */
-.hero-container1 {
+#hero-container1 {
    position: relative;
    text-align: left;
    color: white;
@@ -364,7 +364,7 @@ li a {
    backdrop-filter: blur(3px);
 }
 
-.hero-container2 {
+#hero-container2 {
    display: flex;
    align-items: flex-start;
 }
