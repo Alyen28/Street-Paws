@@ -1,6 +1,6 @@
 # Street Paws
 
-A website to raise awareness about dogs and cats without a permanent, loving home
+A website to raise awareness about stray animals 🧡💚
 
 ## 🚀 Live Demo
 
@@ -8,9 +8,9 @@ A website to raise awareness about dogs and cats without a permanent, loving hom
 
 ## 🛠️ Built With
 
-![HTML5] (https://img.shields.io/badge/HTML-5-orange?logo=html5)
-![CSS3] (https://img.shields.io/badge/CSS-3-blue?logo=css3)
-![JavaScript] (https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## 📈 Future Improvements
 
