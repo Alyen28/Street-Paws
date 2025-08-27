@@ -1,6 +1,6 @@
 # Street Paws
 
-A website to raise awareness about stray animals 🧡💚
+A website created to raise awareness about stray animals 🧡💚
 
 ## 🚀 Live Demo
 
@@ -14,5 +14,6 @@ A website to raise awareness about stray animals 🧡💚
 
 ## 📈 Future Improvements
 
-- Add backend for contact form
-- Improve the donations page
+- Add backend and JavaScript for contact form
+- Expand donations page with more NGOs + search feature
+- Create multilingual versions (English, Spanish)
