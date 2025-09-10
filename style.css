@@ -253,12 +253,12 @@ li a {
   text-decoration: none;
   color: #fef8de;
   padding: 1em;
-  font-size: clamp(1em, 1.3vw, 1.2em);
+  font-size: clamp(0.9em, 1.3vw, 1.2em);
   transition-duration: 0.4s;
 }
 
 li a:hover {
-  font-size: clamp(1.1em, 1.36vw, 1.3em);
+  font-size: clamp(1em, 1.36vw, 1.3em);
   transition-duration: 0.4s;
 }
 
