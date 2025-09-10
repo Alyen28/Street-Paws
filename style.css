@@ -392,10 +392,10 @@ li a:hover {
 @media screen and (max-width: 850px) {
   .hero-text1 {
     position: relative;
-    font-size: clamp(1.2rem, 3.6vw, 4rem);
+    font-size: clamp(1.1rem, 3.6vw, 4rem);
     color: white;
     position: absolute;
-    top: 14%;
+    top: 10%;
     padding-top: 15%;
     text-align: center;
     text-shadow: #302e2c 1px 0 2px;
@@ -417,12 +417,12 @@ li a:hover {
   }
 
   .hero-text2 {
-    font-size: 1.8em;
+    font-size: clamp(0.8rem, 3vw, 4rem);
     color: white;
     position: absolute;
     margin: 0;
     top: 8%;
-    padding-top: 12%;
+    padding-top: 4%;
     padding-bottom: 20%;
     padding-left: 4%;
     padding-right: 4%;
@@ -492,8 +492,7 @@ li a:hover {
   }
 
   #navbar {
-    padding: 1.4em;
-    padding-bottom: 1.5em;
+    padding: 1.2em 0.8em;
     text-align: left;
   }
 
@@ -504,5 +503,13 @@ li a:hover {
 
   li a {
     padding: 1em 0.4em;
+  }
+
+  .hero-image1 {
+    margin-top: 54px;
+  }
+
+  .hero-image2 {
+    margin-top: 54px;
   }
 }
