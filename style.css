@@ -406,7 +406,7 @@ li a:hover {
 @media screen and (max-width: 850px) {
   .hero-text1 {
     position: relative;
-    font-size: clamp(1.1rem, 3.6vw, 4rem);
+    font-size: clamp(1rem, 3.6vw, 4rem);
     color: white;
     position: absolute;
     top: 10%;
@@ -429,11 +429,11 @@ li a:hover {
   }
 
   .hero-text2 {
-    font-size: clamp(0.8rem, 3vw, 4rem);
+    font-size: clamp(0.8rem, 3.6vw, 4rem);
     color: white;
     position: absolute;
     margin: 0;
-    top: 8%;
+    top: 7%;
     padding-top: 10%;
     padding-bottom: 20%;
     padding-left: 4%;
@@ -441,7 +441,6 @@ li a:hover {
     text-align: center;
     text-shadow: #302e2c 1px 0 2px;
     backdrop-filter: blur(3px);
-    font-size: clamp(1rem, 3vw, 3rem);
     z-index: -1;
   }
 
@@ -523,12 +522,12 @@ li a:hover {
   }
 
   label input {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   label textarea {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
