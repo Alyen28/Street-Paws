@@ -73,7 +73,7 @@ main {
   background-color: #588d40;
   color: #fef8de;
   text-align: center;
-  padding: 3em;
+  padding: 3em 0;
   align-items: center;
 }
 
@@ -521,13 +521,17 @@ li a:hover {
     margin-top: 48px;
   }
 
+  #contact-section {
+    padding: 2em 0;
+  }
+
   label input {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   label textarea {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 }
