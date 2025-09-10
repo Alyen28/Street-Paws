@@ -215,10 +215,13 @@ label textarea {
   background-color: #df9e42;
   overflow: hidden;
   padding: 1.5em;
+  padding-bottom: 1.6em;
   text-align: right;
   position: fixed;
   z-index: 10;
+  box-shadow: 5px 0 15px rgb(49, 47, 47);
 }
+
 #donations {
   padding: 1em 0.2em;
   border-style: solid;
@@ -250,12 +253,20 @@ li a {
   text-decoration: none;
   color: #fef8de;
   padding: 1em;
-  font-size: 1.2em;
+  font-size: clamp(1em, 1.3vw, 1.2em);
+  transition-duration: 0.4s;
+}
+
+li a {
+  text-decoration: none;
+  color: #fef8de;
+  padding: 1em;
+  font-size: clamp(1em, 1.3vw, 1.2em);
   transition-duration: 0.4s;
 }
 
 li a:hover {
-  font-size: 1.25em;
+  font-size: clamp(1.1em, 1.36vw, 1.3em);
   transition-duration: 0.4s;
 }
 
@@ -387,10 +398,10 @@ li a:hover {
 @media screen and (max-width: 850px) {
   .hero-text1 {
     position: relative;
-    font-size: clamp(1.6rem, 2vw, 3rem);
+    font-size: clamp(1.2rem, 3.6vw, 4rem);
     color: white;
     position: absolute;
-    top: 10%;
+    top: 14%;
     padding-top: 15%;
     text-align: center;
     text-shadow: #302e2c 1px 0 2px;
@@ -428,7 +439,7 @@ li a:hover {
     color: white;
   }
 
-  .container {
+  .cards-container {
     flex-wrap: wrap;
     flex-direction: column;
   }
@@ -472,19 +483,21 @@ li a:hover {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   #navbarLogo {
     max-width: 0px;
     min-width: 0px;
+    margin-left: 0;
   }
 }
 
-@media screen and (max-width: 555px) {
-  .hero-text1 {
-    font-size: 1.4em;
+@media screen and (max-width: 600px) {
+  #donations {
+    margin-left: 1em;
+    padding: 0.8em 0.8em;
   }
 
-  #donations {
-    margin-left: 0em;
+  li a {
+    padding: 1em 0.5em;
   }
 }
