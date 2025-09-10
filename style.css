@@ -253,12 +253,12 @@ li a {
   text-decoration: none;
   color: #fef8de;
   padding: 1em;
-  font-size: clamp(0.9em, 1.3vw, 1.2em);
+  font-size: clamp(1em, 1.3vw, 1.2em);
   transition-duration: 0.4s;
 }
 
 li a:hover {
-  font-size: clamp(1em, 1.36vw, 1.3em);
+  font-size: clamp(1.1em, 1.36vw, 1.3em);
   transition-duration: 0.4s;
 }
 
@@ -307,21 +307,23 @@ li a:hover {
 }
 
 #know-more {
-  padding: 1em;
+  max-width: 160px;
+  height: auto;
+  padding: 0.8em;
   border-style: solid;
   border-width: 3px;
   border-color: #fef8de;
   color: #fef8de;
   background-color: #df9e42;
   font-family: "Quicksand", sans-serif;
-  font-weight: 600;
-  margin-right: 58%;
+  font-weight: 700;
   margin-top: 36px;
-  font-size: 1.2em;
+  font-size: clamp(1.2em, 1.8vw, 1.4em);
   transition-duration: 0.4s;
 }
 
 #know-more:hover {
+  font-size: clamp(1.3em, 1.9vw, 1.5em);
   background-color: #588d40;
   transition-duration: 0.4s;
 }
@@ -415,13 +417,13 @@ li a:hover {
   }
 
   .hero-text2 {
-    font-size: 1.7em;
+    font-size: 1.8em;
     color: white;
     position: absolute;
     margin: 0;
     top: 8%;
-    padding-top: 18%;
-    padding-bottom: 18%;
+    padding-top: 12%;
+    padding-bottom: 20%;
     padding-left: 4%;
     padding-right: 4%;
     text-align: center;
@@ -480,14 +482,15 @@ li a:hover {
 }
 
 @media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 600px) {
   #navbarLogo {
     max-width: 0px;
     min-width: 0px;
     margin-left: 0;
   }
-}
 
-@media screen and (max-width: 600px) {
   #navbar {
     padding: 1.4em;
     padding-bottom: 1.5em;
