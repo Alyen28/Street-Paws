@@ -82,12 +82,12 @@ main {
 .intro-text {
   margin-top: 10%;
   text-align: center;
-  font-size: clamp(1.3em, 2.5vw, 2.5em);
+  font-size: clamp(1.2em, 2.5vw, 2.5em);
 }
 
 .flex-item a {
   text-decoration: none;
-  font-size: clamp(1.2em, 2vw, 2.4em);
+  font-size: clamp(1.05em, 2vw, 2.4em);
   color: #df9e42;
   transition-duration: 0.4s;
 }
@@ -99,13 +99,13 @@ main {
 
 .title1 {
   text-align: center;
-  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
   color: #588d40;
 }
 
 .title2 {
   text-align: center;
-  font-size: clamp(2em, 3vw, 2.8em);
+  font-size: clamp(1.8em, 3vw, 2.8em);
   margin-top: 2%;
   margin-bottom: 4%;
   color: #fef8de;
