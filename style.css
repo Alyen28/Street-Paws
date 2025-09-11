@@ -87,7 +87,7 @@ main {
 
 .flex-item a {
   text-decoration: none;
-  font-size: clamp(1.05em, 2vw, 2.4em);
+  font-size: clamp(1em, 2vw, 2.4em);
   color: #df9e42;
   transition-duration: 0.4s;
 }
@@ -446,6 +446,13 @@ li a:hover {
 
   .hero-text2 p {
     color: white;
+  }
+
+  .flex-item a {
+    text-decoration: none;
+    font-size: clamp(1.05em, 3vw, 2.15em);
+    color: #df9e42;
+    transition-duration: 0.4s;
   }
 
   .cards-container {
